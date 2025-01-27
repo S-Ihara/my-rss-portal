@@ -1,7 +1,7 @@
 import feedparser
 import requests
 
-RSS_URL = "https://example.com/rss"
+RSS_URL = "https://horomary.hatenablog.com/feed"
 
 response = requests.get(RSS_URL)
 feed = feedparser.parse(response.content)
