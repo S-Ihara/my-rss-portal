@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(response => response.text())
         .then(data => {
             const parser = new DOMParser();
-            const xml = parser.parseFromString(data, "/rss_feed.xml");
+            const xml = parser.parseFromString(data, "application/xml");
             const items = xml.querySelectorAll("item");
             const feedContainer = document.getElementById("rss-feed");
 
