@@ -1,26 +1,18 @@
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja">
-  <title>どこから見てもメンダコ</title>
-  
-  <subtitle>軟体動物門頭足綱八腕類メンダコ科</subtitle>
-  
-  <link href="https://horomary.hatenablog.com/"/>
-  <updated>2025-01-26T20:45:45+09:00</updated>
-  <author>
-    <name>horomary</name>
-  </author>
-  <generator uri="https://blog.hatena.ne.jp/" version="430a1bc2690a65b3aa5b9557edebfe">Hatena::Blog</generator>
-  <id>hatenablog://blog/10257846132647000560</id>
-
-  
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>どこから見てもメンダコ</title>
+    <link>https://horomary.hatenablog.com/</link>
+    <description>軟体動物門頭足綱八腕類メンダコ科</description>
+    <lastBuildDate>Sun, 26 Jan 2025 20:45:45 +0900</lastBuildDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <generator>Hatena::Blog</generator>
     
-    
-    <entry>
-        <title> LLMチューニングのための強化学習：GRPO（Group Relative Policy Optimization）</title>
-        <link href="https://horomary.hatenablog.com/entry/2025/01/26/204545"/>
-        <id>hatenablog://entry/6802418398323111561</id>
-        <published>2025-01-26T20:45:45+09:00</published>
-        <updated>2025-01-27T08:45:32+09:00</updated>        <summary type="html">DeepSeek-R1にも採用されたLLMチューニングのための強化学習手法 GRPO（Group Relative Policy Optimization）について考えたことをまとめます。 GRPO: DeepSeek-R1の強化学習ファインチューニング手法 前提手法：TRPO/PPO TRPO: Trust Region Policy Optimization PPO: Proximal Policy Optimization GRPOとPPOの差分：①アドバンテージ算出と②参照モデルからのKL距離制約 変更点①： アドバンテージAの算出方法 REINFORCE： 価値関数近似なし方策勾配法…</summary>
-        <content type="html">&lt;p&gt;DeepSeek-R1にも採用されたLLMチューニングのための&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;手法 GRPO（Group Relative Policy Optimization）について考えたことをまとめます。&lt;/p&gt;
+      
+      
+        <item>
+          <title> LLMチューニングのための強化学習：GRPO（Group Relative Policy Optimization）</title>
+          <link>https://horomary.hatenablog.com/entry/2025/01/26/204545</link>          <description>&lt;p&gt;DeepSeek-R1にも採用されたLLMチューニングのための&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;手法 GRPO（Group Relative Policy Optimization）について考えたことをまとめます。&lt;/p&gt;
 
 &lt;ul class=&quot;table-of-contents&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;#GRPO-DeepSeek-R1の強化学習ファインチューニング手法&quot;&gt;GRPO: DeepSeek-R1の強化学習ファインチューニング手法&lt;/a&gt;&lt;/li&gt;
@@ -272,24 +264,18 @@
 
 &lt;div class=&quot;footnote&quot;&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-64de5c4e&quot; id=&quot;f-64de5c4e&quot; name=&quot;f-64de5c4e&quot; class=&quot;footnote-number&quot;&gt;*1&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;なお、GRPOの初出はDeepSeek-R1ではなくDeepSeek-Math&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/f2f9b5718ff78aafa78cb10e0ca2085c7c20d21c/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20250125%2F20250125215327.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Sun, 26 Jan 2025 20:45:45 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/6802418398323111561</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/f2f9b5718ff78aafa78cb10e0ca2085c7c20d21c/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20250125%2F20250125215327.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>サンプル効率強化学習①：Bigger, Better, Fasterの実装</title>
-        <link href="https://horomary.hatenablog.com/entry/2024/11/03/140544"/>
-        <id>hatenablog://entry/6802418398299441981</id>
-        <published>2024-11-03T14:05:44+09:00</published>
-        <updated>2024-11-03T17:47:44+09:00</updated>        <summary type="html">たった２時間のゲームプレイで人間相当性能に到達可能なサンプル効率の高い強化学習手法 ”Bigger, Better, Faster”を実装します。 背景： 強化学習実用の課題は劣悪なサンプル効率 強化学習におけるサンプル効率向上アプローチ 評価指標： Atari-100Kベンチマーク ①リセット法によるリプレイ率の増大 ②環境シミュレータ（世界モデル）のデータ駆動構築 Bigger Better Faster: BBF (2023) 手法解説 SPR(2020) SR-SPR (2022) Bigger, Better, Faster (2023) Tensorflow2による実装 A. リセ…</summary>
-        <content type="html">&lt;p&gt;たった２時間のゲームプレイで人間相当性能に到達可能なサンプル効率の高い&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;手法 ”Bigger, Better, Faster”を実装します。&lt;/p&gt;
+      
+      
+        <item>
+          <title>サンプル効率強化学習①：Bigger, Better, Fasterの実装</title>
+          <link>https://horomary.hatenablog.com/entry/2024/11/03/140544</link>          <description>&lt;p&gt;たった２時間のゲームプレイで人間相当性能に到達可能なサンプル効率の高い&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;手法 ”Bigger, Better, Faster”を実装します。&lt;/p&gt;
 
 &lt;ul class=&quot;table-of-contents&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;#背景-強化学習実用の課題は劣悪なサンプル効率&quot;&gt;背景： 強化学習実用の課題は劣悪なサンプル効率&lt;/a&gt;&lt;/li&gt;
@@ -470,24 +456,18 @@
 &lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-4a8e8bee&quot; id=&quot;f-4a8e8bee&quot; name=&quot;f-4a8e8bee&quot; class=&quot;footnote-number&quot;&gt;*2&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;&lt;a href=&quot;https://cbmm.mit.edu/sites/default/files/publications/Tsividis%20et%20al%20-%20Human%20Learning%20in%20Atari.pdf&quot;&gt; Human learning in atari&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-e6922788&quot; id=&quot;f-e6922788&quot; name=&quot;f-e6922788&quot; class=&quot;footnote-number&quot;&gt;*3&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;この話をまじめに書くには余白が足りないので興味のある方は &lt;a href=&quot;https://horomary.hatenablog.com/entry/2022/10/30/111031&quot;&gt;&amp;#x904E;&amp;#x53BB;&amp;#x8A18;&amp;#x4E8B;&amp;#xFF1A; &amp;#x30AA;&amp;#x30D5;&amp;#x30E9;&amp;#x30A4;&amp;#x30F3;&amp;#x5F37;&amp;#x5316;&amp;#x5B66;&amp;#x7FD2;&lt;/a&gt; や &lt;a href=&quot;https://amzn.to/4hp1boN&quot;&gt;&amp;#x5F37;&amp;#x5316;&amp;#x5B66;&amp;#x7FD2;&amp;#xFF08;&amp;#x7B2C;2&amp;#x7248;&amp;#xFF09;11&amp;#x7AE0;&lt;/a&gt;を参照&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/264f18df732e18e353c0c20a52fa6eca40add61c/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20241103%2F20241103010212.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Sun, 03 Nov 2024 14:05:44 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/6802418398299441981</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/264f18df732e18e353c0c20a52fa6eca40add61c/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20241103%2F20241103010212.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>AlphaFoldの進化史： 初代からAlphaFold3まで</title>
-        <link href="https://horomary.hatenablog.com/entry/2024/06/30/211033"/>
-        <id>hatenablog://entry/6801883189105593198</id>
-        <published>2024-06-30T21:10:33+09:00</published>
-        <updated>2024-07-05T20:33:33+09:00</updated>        <summary type="html">AlphaFold3が発表されたのでこれまでの技術的変遷を復習します。 初代AlphaFold (2019) インパクト： 深層学習によるゲームチェンジ 手法概要 ① 残基間距離行列の予測ステップ ② 二面角(ΦΨ)の数理最適化ステップ Note： 距離行列予測は苦しい AlphaFold2 (2021) インパクト： 驚異的な高精度と可用性 手法概要 ① データ準備 ② Evoformerによる特徴抽出 ③ 残基ベース立体構造予測 Note： SE(3) 同変な構造予測モデル AlphaFold3 (2024) インパクト： 折り畳みから分子間相互作用へ ①全原子拡散モデルによる分子構造生成…</summary>
-        <content type="html">&lt;p&gt;AlphaFold3が発表されたのでこれまでの技術的変遷を復習します。&lt;/p&gt;
+      
+      
+        <item>
+          <title>AlphaFoldの進化史： 初代からAlphaFold3まで</title>
+          <link>https://horomary.hatenablog.com/entry/2024/06/30/211033</link>          <description>&lt;p&gt;AlphaFold3が発表されたのでこれまでの技術的変遷を復習します。&lt;/p&gt;
 
 &lt;ul class=&quot;table-of-contents&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;#初代AlphaFold-2019&quot;&gt;初代AlphaFold (2019)&lt;/a&gt;&lt;ul&gt;
@@ -764,24 +744,18 @@ MSA表現の特徴抽出ネットワークではaxial self-attention（軸方向
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-57e10d3e&quot; id=&quot;f-57e10d3e&quot; name=&quot;f-57e10d3e&quot; class=&quot;footnote-number&quot;&gt;*3&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;より正確には&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/IPA&quot;&gt;IPA&lt;/a&gt;モジュールによるsingle representationの更新はSE(3)不変操作だが、各残基への相対的な移動指示はSE(3)同変な操作&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-9f6986d1&quot; id=&quot;f-9f6986d1&quot; name=&quot;f-9f6986d1&quot; class=&quot;footnote-number&quot;&gt;*4&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;タンパク複合体の予測も意図されたものではなく、某先生がハッキング的な使い方を発見したことによる。ちなみにこの先生のブログには以前に分子動力学やってたとき大変お世話になった思い出があり感慨深い。&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-f225f784&quot; id=&quot;f-f225f784&quot; name=&quot;f-f225f784&quot; class=&quot;footnote-number&quot;&gt;*5&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;もちろんタンパク質-低分子リガンドくらいなら既存のドッキングスコア関数である程度は結合強度を推定することができる&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/6402614d4639afae289cd95b52701178625517b3/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20240623%2F20240623010813.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Sun, 30 Jun 2024 21:10:33 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/6801883189105593198</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/6402614d4639afae289cd95b52701178625517b3/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20240623%2F20240623010813.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>拡散モデルによる分子デザイン①： 同変グラフ拡散モデルの実装</title>
-        <link href="https://horomary.hatenablog.com/entry/2024/02/19/221742"/>
-        <id>hatenablog://entry/820878482947815630</id>
-        <published>2024-02-19T22:17:42+09:00</published>
-        <updated>2024-02-19T22:17:42+09:00</updated>        <summary type="html">同変グラフ畳み込み拡散モデル（EDM: E(3) Equivariant Diffusion Model）による分子生成をtf2で実装します。 同変グラフ拡散モデルによる分子生成 拡散モデルによる分子デザイン 拡散モデルの優位性 ① 学習安定性が高く、大きく複雑な構造生成が可能 ② 高精度な条件付け生成により、実務的な分子デザインが可能 創薬・材料科学分野で広がる応用 EDM：同変グラフ畳み込み拡散分子生成モデル 同変グラフ畳み込みネットワーク 並進・回転同変性の獲得 拡散モデルとの組み合わせ TF2での実装 QM9データセットの入手 分子構造をネットワーク入力用にフォーマット 同変グラフ畳み…</summary>
-        <content type="html">&lt;p&gt;同変グラフ畳み込み拡散モデル（EDM:  E(3) Equivariant Diffusion Model）による分子生成を&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/tf2&quot;&gt;tf2&lt;/a&gt;で実装します。&lt;/p&gt;
+      
+      
+        <item>
+          <title>拡散モデルによる分子デザイン①： 同変グラフ拡散モデルの実装</title>
+          <link>https://horomary.hatenablog.com/entry/2024/02/19/221742</link>          <description>&lt;p&gt;同変グラフ畳み込み拡散モデル（EDM:  E(3) Equivariant Diffusion Model）による分子生成を&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/tf2&quot;&gt;tf2&lt;/a&gt;で実装します。&lt;/p&gt;
 
 &lt;p&gt;&lt;figure class=&quot;figure-image figure-image-fotolife&quot; title=&quot;同変グラフ畳み込み拡散モデルによる分子生成&quot;&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/h/horomary/20240213/20240213224742.gif&quot; width=&quot;837&quot; height=&quot;600&quot; loading=&quot;lazy&quot; title=&quot;&quot; class=&quot;hatena-fotolife&quot; style=&quot;width:700px&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;figcaption&gt;同変グラフ拡散モデルによる分子生成&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
@@ -1022,24 +996,18 @@ PFN岡之原氏による本格派の拡散モデル解説書。&lt;a class=&quot
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-07d38801&quot; id=&quot;f-07d38801&quot; name=&quot;f-07d38801&quot; class=&quot;footnote-number&quot;&gt;*3&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;岡野原本のはじめに、より&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-d9d6cc59&quot; id=&quot;f-d9d6cc59&quot; name=&quot;f-d9d6cc59&quot; class=&quot;footnote-number&quot;&gt;*4&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;もちろんそれだけではないが大雑把な理解としてはこんなものでいいのでは？&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-3c2b0326&quot; id=&quot;f-3c2b0326&quot; name=&quot;f-3c2b0326&quot; class=&quot;footnote-number&quot;&gt;*5&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;それでも&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%A5%D4%A5%EA%A5%B8%A5%F3&quot;&gt;ピリジン&lt;/a&gt;と見せかけてピリジニウムになっているあたりにファンタ&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%A5%B8%A1%BC&quot;&gt;ジー&lt;/a&gt;感が残っています&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/90190dd58495f9d26480b03e8aef83c5feeeefd9/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20240213%2F20240213224742.gif" type="image/gif" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Mon, 19 Feb 2024 22:17:42 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/820878482947815630</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/90190dd58495f9d26480b03e8aef83c5feeeefd9/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20240213%2F20240213224742.gif" type="image/gif" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>LLM時代の強化学習</title>
-        <link href="https://horomary.hatenablog.com/entry/2023/11/24/225302"/>
-        <id>hatenablog://entry/6801883189054543055</id>
-        <published>2023-11-24T22:53:02+09:00</published>
-        <updated>2024-03-02T23:58:47+09:00</updated>        <summary type="html">強化学習におけるLLMの活用パターン調査 はじめに：実世界における強化学習の課題 LLM×強化学習 人間はゼロショット推論によりサンプル効率の良い学習ができる LLMによるゼロショット推論の例 さまざまなLLM活用パターン 1. 報酬モデルとしてのLLM LLMによる代理報酬モデル VLMによる外観ベース代理報酬モデル 外部知識にもとづく報酬モデル設計 2. 計画モデルとしてのLLM LLMによるセマンティック計画 LLMによる構造的な探索計画 3. 方策モデルとしてのLLM LLM as 確率方策 マルチモーダルLLM as 確率方策 参考：GPTアーキテクチャの転用 4. 世界モデルとして…</summary>
-        <content type="html">&lt;p&gt;&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;におけるLLMの活用パターン調査&lt;/p&gt;
+      
+      
+        <item>
+          <title>LLM時代の強化学習</title>
+          <link>https://horomary.hatenablog.com/entry/2023/11/24/225302</link>          <description>&lt;p&gt;&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;におけるLLMの活用パターン調査&lt;/p&gt;
 
 &lt;ul class=&quot;table-of-contents&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;#はじめに実世界における強化学習の課題&quot;&gt;はじめに：実世界における強化学習の課題&lt;/a&gt;&lt;/li&gt;
@@ -1268,24 +1236,18 @@ PFN岡之原氏による本格派の拡散モデル解説書。&lt;a class=&quot
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-d3a78513&quot; id=&quot;f-d3a78513&quot; name=&quot;f-d3a78513&quot; class=&quot;footnote-number&quot;&gt;*3&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;SkiingタスクでAgent57との比較&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-9213a086&quot; id=&quot;f-9213a086&quot; name=&quot;f-9213a086&quot; class=&quot;footnote-number&quot;&gt;*4&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;「階層型&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;」などの枠組みでこのようなアプローチが検討されてきたが、ほとんどの場合サブ目標への分割が&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%A5%D2%A5%E5%A1%BC%A5%EA%A5%B9%A5%C6%A5%A3%A5%C3%A5%AF&quot;&gt;ヒューリスティック&lt;/a&gt;であるため汎用性に課題&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-5ec554fb&quot; id=&quot;f-5ec554fb&quot; name=&quot;f-5ec554fb&quot; class=&quot;footnote-number&quot;&gt;*5&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;正確にはLLMの提案サブタスクを実行可能かどうか&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%A5%A2%A5%D5%A5%A9%A1%BC%A5%C0%A5%F3%A5%B9&quot;&gt;アフォーダンス&lt;/a&gt;モデルによって判断するプロセスもある&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/a0e9374588f1737706bb6e2ba6cd591c8f031de1/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20231115%2F20231115212856.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Fri, 24 Nov 2023 22:53:02 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/6801883189054543055</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/a0e9374588f1737706bb6e2ba6cd591c8f031de1/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20231115%2F20231115212856.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>オフライン強化学習④： 拡散モデルの台頭</title>
-        <link href="https://horomary.hatenablog.com/entry/2023/07/11/200120"/>
-        <id>hatenablog://entry/820878482935403886</id>
-        <published>2023-07-11T20:01:20+09:00</published>
-        <updated>2023-07-11T20:01:20+09:00</updated>        <summary type="html">オフライン強化学習における拡散方策の近年の適用例を概観し、tensorflowで実装します。 背景 拡散方策（Diffusion Policy）の登場 模倣学習の大幅な性能向上 Diffusion-QLの衝撃 主要な手法・論文 Diffusion-QL：拡散方策のミニマリストアプローチ IDQL： Implicit Q-Learning＋拡散方策 深堀り模倣学習：Using generative AI to imitate human behavior Decision Diffuser ：分類器無しガイダンス（CFG）の活用 Tensorflowによる拡散方策の実装 拡散方策 ノイズスケジュ…</summary>
-        <content type="html">&lt;p&gt;オフライン&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;における拡散方策の近年の適用例を概観し、tensorflowで実装します。&lt;/p&gt;
+      
+      
+        <item>
+          <title>オフライン強化学習④： 拡散モデルの台頭</title>
+          <link>https://horomary.hatenablog.com/entry/2023/07/11/200120</link>          <description>&lt;p&gt;オフライン&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;における拡散方策の近年の適用例を概観し、tensorflowで実装します。&lt;/p&gt;
 
 &lt;ul class=&quot;table-of-contents&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;#背景&quot;&gt;背景&lt;/a&gt;&lt;ul&gt;
@@ -1513,24 +1475,18 @@ PFN岡之原氏による本格派の拡散モデル解説書。&lt;a class=&quot
 &lt;div class=&quot;footnote&quot;&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-63325a97&quot; name=&quot;f-63325a97&quot; class=&quot;footnote-number&quot;&gt;*1&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;拡散モデルの生成自体は&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B7%E8%C4%EA%CF%C0&quot;&gt;決定論&lt;/a&gt;的ではないが生成確率の算出が困難であるために&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B7%E8%C4%EA%CF%C0&quot;&gt;決定論&lt;/a&gt;的方策の枠組みで扱うしかないため&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-3647f55d&quot; name=&quot;f-3647f55d&quot; class=&quot;footnote-number&quot;&gt;*2&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;実際にはTD3ロスと模倣学習ロスの和を損失関数として同時に学習するのでファインチューニングではない&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/a2624f093c72f4d8eb23ebfccf3961f6b0313601/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20230710%2F20230710204956.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Tue, 11 Jul 2023 20:01:20 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/820878482935403886</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/a2624f093c72f4d8eb23ebfccf3961f6b0313601/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20230710%2F20230710204956.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>オフライン強化学習③ Implicit Q-Learning (IQL)の実装</title>
-        <link href="https://horomary.hatenablog.com/entry/2023/05/02/195808"/>
-        <id>hatenablog://entry/4207112889973945469</id>
-        <published>2023-05-02T19:58:08+09:00</published>
-        <updated>2023-05-02T19:58:08+09:00</updated>        <summary type="html">Implicit Q-Learningでは、maxQ(s,a)の評価を期待回帰(Expectile Regression)によって暗黙的に行うことでオフライン強化学習の困難の一つであるサンプル外アクション問題を回避します openreview.net オフライン強化学習の困難 オフライン強化学習とは サンプル外アクションの価値評価問題 OoDアクション(Out of Distribution) の回避 SARSAアプローチ Implicit Q learning：暗黙的なQ学習 ①状態価値V(s)は行動選択に由来するランダム性をもつ確率分布である ②期待回帰（Expectile Regress…</summary>
-        <content type="html">&lt;p&gt;Implicit Q-Learningでは、maxQ(s,a)の評価を期待回帰(Expectile Regression)によって暗黙的に行うことでオフライン&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;の困難の一つであるサンプル外アクション問題を回避します&lt;/p&gt;
+      
+      
+        <item>
+          <title>オフライン強化学習③ Implicit Q-Learning (IQL)の実装</title>
+          <link>https://horomary.hatenablog.com/entry/2023/05/02/195808</link>          <description>&lt;p&gt;Implicit Q-Learningでは、maxQ(s,a)の評価を期待回帰(Expectile Regression)によって暗黙的に行うことでオフライン&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;の困難の一つであるサンプル外アクション問題を回避します&lt;/p&gt;
 
 &lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fopenreview.net%2Fforum%3Fid%3D68n2s9ZJWF8&quot; title=&quot;Offline Reinforcement Learning with Implicit Q-Learning&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://openreview.net/forum?id=68n2s9ZJWF8&quot;&gt;openreview.net&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
 
@@ -1707,24 +1663,18 @@ PFN岡之原氏による本格派の拡散モデル解説書。&lt;a class=&quot
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;次拡散ポリシー関連&quot;&gt;次：拡散ポリシー関連&lt;/h2&gt;
-</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/5e08acdb388570bfea2b1950e0666091d8c36204/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20230502%2F20230502173859.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+</description>          <pubDate>Tue, 02 May 2023 19:58:08 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/4207112889973945469</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/5e08acdb388570bfea2b1950e0666091d8c36204/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20230502%2F20230502173859.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>プロンプト戦略による大規模言語モデルのドメイン適応：Med-PaLMの例</title>
-        <link href="https://horomary.hatenablog.com/entry/2023/03/21/220309"/>
-        <id>hatenablog://entry/4207112889971742408</id>
-        <published>2023-03-21T22:03:09+09:00</published>
-        <updated>2023-03-21T22:03:09+09:00</updated>        <summary type="html">プロンプト戦略のみで大規模言語モデルの医療ドメイン適応に成功したMed-PaLMのアプローチをまとめます。 ナレッジベースとしての大規模言語モデル Med-PaLM：プロンプト戦略によるドメイン適応 プロンプト戦略：Instruction Prompt Tuning ハードプロンプト： 人間によってデザインされたプロンプト ソフトプロンプト： 学習によって獲得する最適プロンプト 医師とMed-PaLMの回答比較 次：？ 関連： horomary.hatenablog.com ナレッジベースとしての大規模言語モデル 十分な事前学習が行われた大規模言語モデル(LLM, Large Language…</summary>
-        <content type="html">&lt;p&gt;プロンプト戦略のみで大規模&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B8%C0%B8%EC%A5%E2%A5%C7%A5%EB&quot;&gt;言語モデル&lt;/a&gt;の医療&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%C9%A5%E1%A5%A4%A5%F3&quot;&gt;ドメイン&lt;/a&gt;適応に成功したMed-&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/PaLM&quot;&gt;PaLM&lt;/a&gt;のアプローチをまとめます。&lt;/p&gt;
+      
+      
+        <item>
+          <title>プロンプト戦略による大規模言語モデルのドメイン適応：Med-PaLMの例</title>
+          <link>https://horomary.hatenablog.com/entry/2023/03/21/220309</link>          <description>&lt;p&gt;プロンプト戦略のみで大規模&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B8%C0%B8%EC%A5%E2%A5%C7%A5%EB&quot;&gt;言語モデル&lt;/a&gt;の医療&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%C9%A5%E1%A5%A4%A5%F3&quot;&gt;ドメイン&lt;/a&gt;適応に成功したMed-&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/PaLM&quot;&gt;PaLM&lt;/a&gt;のアプローチをまとめます。&lt;/p&gt;
 
 &lt;ul class=&quot;table-of-contents&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;#ナレッジベースとしての大規模言語モデル&quot;&gt;ナレッジベースとしての大規模言語モデル&lt;/a&gt;&lt;/li&gt;
@@ -1831,24 +1781,18 @@ PFN岡之原氏による本格派の拡散モデル解説書。&lt;a class=&quot
 &lt;h2 id=&quot;次&quot;&gt;次：？&lt;/h2&gt;
 
 &lt;p&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%C9%A5%E1%A5%A4%A5%F3&quot;&gt;ドメイン&lt;/a&gt;特化LLMについては継続的に調べていきたい&lt;/p&gt;
-</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/ffd64aa8c89b3cfe5cffa59359708e235d50c465/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20230321%2F20230321204742.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+</description>          <pubDate>Tue, 21 Mar 2023 22:03:09 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/4207112889971742408</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/ffd64aa8c89b3cfe5cffa59359708e235d50c465/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20230321%2F20230321204742.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>安全で信頼できる対話AIのためのアプローチ：InstructGPT, Sparrow, Galactica</title>
-        <link href="https://horomary.hatenablog.com/entry/2022/12/28/174554"/>
-        <id>hatenablog://entry/4207112889943955559</id>
-        <published>2022-12-28T17:45:54+09:00</published>
-        <updated>2022-12-28T17:45:54+09:00</updated>        <summary type="html">OpenAIのInstructGPT, DeepMindのSparrow, MetaのGalacticaにおける対話AIの信頼性/安全性向上のためのアプローチをまとめます Words have the power to both destroy and heal. When words are both true and kind, they can change our world. 言葉は人を傷つける事も癒す事も出来る。言葉から憎しみと偽りが消えた時、それは世界を変える力になる ― 仏陀 CivilizationⅣ &quot;アルファベット&quot; 言語モデル論文あるある; 格言引用しがち 安全で信頼で…</summary>
-        <content type="html">&lt;p&gt;OpenAIのInstructGPT, &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DeepMind&quot;&gt;DeepMind&lt;/a&gt;のSparrow, MetaのGalacticaにおける対話AIの信頼性/安全性向上のためのアプローチをまとめます&lt;/p&gt;
+      
+      
+        <item>
+          <title>安全で信頼できる対話AIのためのアプローチ：InstructGPT, Sparrow, Galactica</title>
+          <link>https://horomary.hatenablog.com/entry/2022/12/28/174554</link>          <description>&lt;p&gt;OpenAIのInstructGPT, &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DeepMind&quot;&gt;DeepMind&lt;/a&gt;のSparrow, MetaのGalacticaにおける対話AIの信頼性/安全性向上のためのアプローチをまとめます&lt;/p&gt;
 
 &lt;blockquote&gt;&lt;p&gt;&lt;em&gt;Words have the power to both destroy and heal. When words are both true and kind, they can change our world. &lt;br&gt;
 言葉は人を傷つける事も癒す事も出来る。言葉から憎しみと偽りが消えた時、それは世界を変える力になる ― &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%CA%A9%C2%CB&quot;&gt;仏陀&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
@@ -2220,24 +2164,18 @@ InstructGPTはあくまでRLHFによって人間の指示にうまく従うよ�
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-f68c67ad&quot; name=&quot;f-f68c67ad&quot; class=&quot;footnote-number&quot;&gt;*1&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;TRPOと異なりKL距離&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%EF%E7%C3%CD&quot;&gt;閾値&lt;/a&gt;以下である保証は無いので努力目標くらいのイメージ&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-3d6d3ba5&quot; name=&quot;f-3d6d3ba5&quot; class=&quot;footnote-number&quot;&gt;*2&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;スコアだけ見ると教師ありファインチューニングが強そうに見えるが毒性は無いが情報量も乏しい回答になっているのではないかと思われる&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-3e39752d&quot; name=&quot;f-3e39752d&quot; class=&quot;footnote-number&quot;&gt;*3&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;&lt;a href=&quot;https://digitalforensic.jp/2022/03/07/column707/&quot;&gt;&amp;#x7B2C;&amp;#xFF17;&amp;#xFF10;&amp;#xFF17;&amp;#x53F7;&amp;#x30B3;&amp;#x30E9;&amp;#x30E0;&amp;#xFF1A;&amp;#x300C;AI&amp;#x30C9;&amp;#x30E9;&amp;#x30C3;&amp;#x30B0;&amp;#x30DE;&amp;#x30A4;&amp;#x30CB;&amp;#x30F3;&amp;#x30B0;&amp;#x306B;&amp;#x3064;&amp;#x3044;&amp;#x3066;&amp;#x300D; | &amp;#x30B3;&amp;#x30E9;&amp;#x30E0; | &amp;#x30C7;&amp;#x30B8;&amp;#x30BF;&amp;#x30EB;&amp;#x30FB;&amp;#x30D5;&amp;#x30A9;&amp;#x30EC;&amp;#x30F3;&amp;#x30B8;&amp;#x30C3;&amp;#x30AF;&amp;#x7814;&amp;#x7A76;&amp;#x4F1A;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/2698a722c2c20c9fa8d080e97ec4da00c4b7aaf4/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20221228%2F20221228174323.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Wed, 28 Dec 2022 17:45:54 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/4207112889943955559</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/2698a722c2c20c9fa8d080e97ec4da00c4b7aaf4/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20221228%2F20221228174323.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>オフライン強化学習② Decision Transformerの系譜</title>
-        <link href="https://horomary.hatenablog.com/entry/2022/11/28/212738"/>
-        <id>hatenablog://entry/4207112889933857583</id>
-        <published>2022-11-28T21:27:38+09:00</published>
-        <updated>2024-09-07T22:32:05+09:00</updated>        <summary type="html">Decision transoformer (2021)は、自然言語モデルGPTにおける次トークン予測の枠組みでオフライン強化学習タスクを解けることを示し新たなパラダイムをもたらしました。最近ではDeepMindの超汎用エージェントGATOなどもDecision Transformerベースのアーキテクチャを採用しており、その重要性が増しています。 Decision Transformer とは オフライン強化学習の新たなパラダイム 言語を生成するように行動を生成する 自然言語風アプローチのメリット 条件付き生成：Reward conditioned Sequence modelingの系譜 …</summary>
-        <content type="html">&lt;p&gt;&lt;strong&gt;Decision transoformer (2021)&lt;/strong&gt;は、&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%BC%AB%C1%B3%B8%C0%B8%EC&quot;&gt;自然言語&lt;/a&gt;モデルGPTにおける次&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%A5%C8%A1%BC%A5%AF&quot;&gt;トーク&lt;/a&gt;ン予測の枠組みでオフライン&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;タスクを解けることを示し新たな&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%A5%D1%A5%E9%A5%C0%A5%A4%A5%E0&quot;&gt;パラダイム&lt;/a&gt;をもたらしました。最近では&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/DeepMind&quot;&gt;DeepMind&lt;/a&gt;の超汎用エージェント&lt;strong&gt;GATO&lt;/strong&gt;などもDecision Transformerベースの&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%A5%A2%A1%BC%A5%AD%A5%C6%A5%AF%A5%C1%A5%E3&quot;&gt;アーキテクチャ&lt;/a&gt;を採用しており、その重要性が増しています。&lt;/p&gt;
+      
+      
+        <item>
+          <title>オフライン強化学習② Decision Transformerの系譜</title>
+          <link>https://horomary.hatenablog.com/entry/2022/11/28/212738</link>          <description>&lt;p&gt;&lt;strong&gt;Decision transoformer (2021)&lt;/strong&gt;は、&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%BC%AB%C1%B3%B8%C0%B8%EC&quot;&gt;自然言語&lt;/a&gt;モデルGPTにおける次&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%A5%C8%A1%BC%A5%AF&quot;&gt;トーク&lt;/a&gt;ン予測の枠組みでオフライン&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;タスクを解けることを示し新たな&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%A5%D1%A5%E9%A5%C0%A5%A4%A5%E0&quot;&gt;パラダイム&lt;/a&gt;をもたらしました。最近では&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/DeepMind&quot;&gt;DeepMind&lt;/a&gt;の超汎用エージェント&lt;strong&gt;GATO&lt;/strong&gt;などもDecision Transformerベースの&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%A5%A2%A1%BC%A5%AD%A5%C6%A5%AF%A5%C1%A5%E3&quot;&gt;アーキテクチャ&lt;/a&gt;を採用しており、その重要性が増しています。&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
@@ -2462,24 +2400,18 @@ TD学習では行動と報酬発生の時間差が大きい（例： &lt;a class
 &lt;div class=&quot;footnote&quot;&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-235eeb41&quot; id=&quot;f-235eeb41&quot; name=&quot;f-235eeb41&quot; class=&quot;footnote-number&quot;&gt;*1&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/2005.01643&quot;&gt;[2005.01643] Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-96750de7&quot; id=&quot;f-96750de7&quot; name=&quot;f-96750de7&quot; class=&quot;footnote-number&quot;&gt;*2&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;BERTでなくGPTを使っているのは、GPTが過去コンテクストのみを活用する単方向モデルであるために次行動予測と相性が良かったためと思われる&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/07cf75390b30d00e25c3e89d9d65da8ff889f13c/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20221106%2F20221106010043.gif" type="image/gif" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Mon, 28 Nov 2022 21:27:38 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/4207112889933857583</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/07cf75390b30d00e25c3e89d9d65da8ff889f13c/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20221106%2F20221106010043.gif" type="image/gif" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>オフライン強化学習① Conservative Q-Learning (CQL)の実装</title>
-        <link href="https://horomary.hatenablog.com/entry/2022/10/30/111031"/>
-        <id>hatenablog://entry/26006613776483161</id>
-        <published>2022-10-30T11:10:31+09:00</published>
-        <updated>2022-10-30T11:10:31+09:00</updated>        <summary type="html">オフライン強化学習の有名手法CQLについて、簡単な解説とともにブロック崩し環境向けのtf2実装を紹介します [2006.04779] Conservative Q-Learning for Offline Reinforcement Learning sites.google.com はじめに：オフライン強化学習とは 問題設定：ゲーム実況を見るだけで上手にプレイできるか？ 実世界でのユースケース 模倣学習との違いなど オフライン強化学習の難しさ データセットサイズは問題を解決しない Out of Distribution： データセット分布外アクションの過大評価 もっと詳しく CQL：保守的な…</summary>
-        <content type="html">&lt;p&gt;オフライン&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;の有名手法CQLについて、簡単な解説とともに&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%A5%D6%A5%ED%A5%C3%A5%AF%CA%F8%A4%B7&quot;&gt;ブロック崩し&lt;/a&gt;環境向けの&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/tf2&quot;&gt;tf2&lt;/a&gt;実装を紹介します&lt;/p&gt;
+      
+      
+        <item>
+          <title>オフライン強化学習① Conservative Q-Learning (CQL)の実装</title>
+          <link>https://horomary.hatenablog.com/entry/2022/10/30/111031</link>          <description>&lt;p&gt;オフライン&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;の有名手法CQLについて、簡単な解説とともに&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%A5%D6%A5%ED%A5%C3%A5%AF%CA%F8%A4%B7&quot;&gt;ブロック崩し&lt;/a&gt;環境向けの&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/tf2&quot;&gt;tf2&lt;/a&gt;実装を紹介します&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/2006.04779&quot;&gt;[2006.04779] Conservative Q-Learning for Offline Reinforcement Learning&lt;/a&gt;&lt;/p&gt;
 
@@ -2780,24 +2712,18 @@ TD学習では行動と報酬発生の時間差が大きい（例： &lt;a class
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-fc74ee26&quot; name=&quot;f-fc74ee26&quot; class=&quot;footnote-number&quot;&gt;*4&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;個人的には fully off-policy RL が分かりやすくて好き&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-624cd4a3&quot; name=&quot;f-624cd4a3&quot; class=&quot;footnote-number&quot;&gt;*5&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;例：&lt;a href=&quot;https://openai.com/blog/learning-to-summarize-with-human-feedback/&quot;&gt;Learning to summarize with human feedback&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-a35efc7c&quot; name=&quot;f-a35efc7c&quot; class=&quot;footnote-number&quot;&gt;*6&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;ただし模倣学習についてはDAggerみたいにhuman in the loop設定になっていることも多い&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/d5a09fb7cbbe3182fe27f067c20e1231f9c1004e/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20221030%2F20221030032353.gif" type="image/gif" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Sun, 30 Oct 2022 11:10:31 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/26006613776483161</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/d5a09fb7cbbe3182fe27f067c20e1231f9c1004e/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20221030%2F20221030032353.gif" type="image/gif" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>論文メモ：深層強化学習によるトカマク型核融合炉の制御</title>
-        <link href="https://horomary.hatenablog.com/entry/2022/09/06/202215"/>
-        <id>hatenablog://entry/13574176438072876562</id>
-        <published>2022-09-06T20:22:15+09:00</published>
-        <updated>2022-09-06T20:22:15+09:00</updated>        <summary type="html">DeepMindの深層強化学習による核融合炉制御論文を読んだので論文内容と論文を理解するために調べた技術背景をまとめます。 Accelerating fusion science through learned plasma control www.nature.com 要約 技術背景：核融合炉の仕組み 核分裂エネルギーと核融合エネルギー 核融合反応のおこしかた トカマク型磁気閉じ込め方式 深層強化学習によるトカマク型核融合炉の制御 研究者はさまざまなプラズマ形状の特性を探索したい 課題：目標形状ごとに磁気コイル制御システム構築するのがつらい 提案：深層強化学習で任意形状の制御を実現する 制御…</summary>
-        <content type="html">&lt;p&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DeepMind&quot;&gt;DeepMind&lt;/a&gt;の深層&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;による&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B3%CB%CD%BB%B9%E7&quot;&gt;核融合&lt;/a&gt;炉&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%C0%A9%B8%E6%CF%C0&quot;&gt;制御論&lt;/a&gt;文を読んだので論文内容と論文を理解するために調べた技術背景をまとめます。&lt;/p&gt;
+      
+      
+        <item>
+          <title>論文メモ：深層強化学習によるトカマク型核融合炉の制御</title>
+          <link>https://horomary.hatenablog.com/entry/2022/09/06/202215</link>          <description>&lt;p&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DeepMind&quot;&gt;DeepMind&lt;/a&gt;の深層&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;による&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B3%CB%CD%BB%B9%E7&quot;&gt;核融合&lt;/a&gt;炉&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%C0%A9%B8%E6%CF%C0&quot;&gt;制御論&lt;/a&gt;文を読んだので論文内容と論文を理解するために調べた技術背景をまとめます。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://deepmind.com/blog/article/Accelerating-fusion-science-through-learned-plasma-control&quot;&gt;Accelerating fusion science through learned plasma control&lt;/a&gt;&lt;/p&gt;
 
@@ -3006,24 +2932,18 @@ TD学習では行動と報酬発生の時間差が大きい（例： &lt;a class
 &lt;div class=&quot;footnote&quot;&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-0ee1b109&quot; name=&quot;f-0ee1b109&quot; class=&quot;footnote-number&quot;&gt;*1&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DeepMind&quot;&gt;DeepMind&lt;/a&gt; Blogより&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-c0708ee3&quot; name=&quot;f-c0708ee3&quot; class=&quot;footnote-number&quot;&gt;*2&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;ちなみに&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/MPO&quot;&gt;MPO&lt;/a&gt;のfirst authorはこの論文のauthorにも入ってる&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/9f8acb783ad4eab7d5417958556c9ace611610cd/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20220315%2F20220315000434.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Tue, 06 Sep 2022 20:22:15 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/13574176438072876562</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/9f8acb783ad4eab7d5417958556c9ace611610cd/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20220315%2F20220315000434.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>強化学習 as Inference： Maximum a Posteriori Policy Optimizationの実装</title>
-        <link href="https://horomary.hatenablog.com/entry/2022/07/21/192741"/>
-        <id>hatenablog://entry/13574176438091891231</id>
-        <published>2022-07-21T19:27:41+09:00</published>
-        <updated>2022-07-21T19:27:41+09:00</updated>        <summary type="html">方策が最適である確率の下界をＥＭアルゴリズムっぽく最大化する強化学習手法 Maximum a Posteriori policy Optimization (ICLR2018) をBipedalWalker-v3向けにtensorflow2で実装します。 openreview.net はじめに 方策勾配法： 劣悪なサンプル効率と不安定な更新 Maximum a Posteriori Policy Optimization ： 確立推論の枠組みで方策を最適化 Control as inference では行動の最適性を確率分布で表現する Control as InferenceとしてのSoft …</summary>
-        <content type="html">&lt;p&gt;方策が最適である確率の下界をＥＭ&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0&quot;&gt;アルゴリズム&lt;/a&gt;っぽく最大化する&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;手法 &lt;strong&gt;Maximum a Posteriori policy Optimization (ICLR2018) &lt;/strong&gt;をBipedalWalker-v3向けにtensorflow2で実装します。&lt;/p&gt;
+      
+      
+        <item>
+          <title>強化学習 as Inference： Maximum a Posteriori Policy Optimizationの実装</title>
+          <link>https://horomary.hatenablog.com/entry/2022/07/21/192741</link>          <description>&lt;p&gt;方策が最適である確率の下界をＥＭ&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0&quot;&gt;アルゴリズム&lt;/a&gt;っぽく最大化する&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;手法 &lt;strong&gt;Maximum a Posteriori policy Optimization (ICLR2018) &lt;/strong&gt;をBipedalWalker-v3向けにtensorflow2で実装します。&lt;/p&gt;
 
 &lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fopenreview.net%2Fforum%3Fid%3DS1ANxQW0b&quot; title=&quot;Maximum a Posteriori Policy Optimisation&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://openreview.net/forum?id=S1ANxQW0b&quot;&gt;openreview.net&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
 
@@ -3368,24 +3288,18 @@ TD学習では行動と報酬発生の時間差が大きい（例： &lt;a class
 &lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-53c43645&quot; name=&quot;f-53c43645&quot; class=&quot;footnote-number&quot;&gt;*5&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;参考資料：&lt;a href=&quot;https://www.andrew.cmu.edu/course/10-703/slides/Lecture_NaturalPolicyGradientsTRPOPPO.pdf&quot;&gt;CMU&amp;#x306E;TRPO&amp;#x8B1B;&amp;#x7FA9;&amp;#x8CC7;&amp;#x6599;&lt;/a&gt;のTaylor expansion of KLのスライド
 &lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/3b82529f30a05c75e359e7804cfbdcba57c95e33/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20220720%2F20220720172217.gif" type="image/gif" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Thu, 21 Jul 2022 19:27:41 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/13574176438091891231</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/3b82529f30a05c75e359e7804cfbdcba57c95e33/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20220720%2F20220720172217.gif" type="image/gif" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title> 世界モデルベース強化学習①： DreamerV2の実装</title>
-        <link href="https://horomary.hatenablog.com/entry/2022/02/27/201339"/>
-        <id>hatenablog://entry/26006613800377468</id>
-        <published>2022-02-27T20:13:39+09:00</published>
-        <updated>2024-10-31T08:46:38+09:00</updated>        <summary type="html">世界モデル系強化学習の先端手法であるDreamerV2をブロック崩し（BreakoutDeterministic-v4）向けに実装しました。 はじめに 世界モデルベース強化学習とは DreamerV2：Atari環境で初めてモデルフリー手法に並んだ世界モデルベース強化学習 世界モデル（World Models）について 方策の獲得 Dreamerへの系譜 Wolrd Models （2018） PlaNet： Deep Planning Network （2019） Dreamer （2020） DreamerV2 （2021） 非VAEの状態遷移モデル：MuZero（2020） Tensor…</summary>
-        <content type="html">&lt;p&gt;世界モデル系&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;の先端手法である&lt;strong&gt;DreamerV2&lt;/strong&gt;を&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%A5%D6%A5%ED%A5%C3%A5%AF%CA%F8%A4%B7&quot;&gt;ブロック崩し&lt;/a&gt;（BreakoutDeterministic-v4）向けに実装しました。&lt;br&gt;&lt;/p&gt;
+      
+      
+        <item>
+          <title> 世界モデルベース強化学習①： DreamerV2の実装</title>
+          <link>https://horomary.hatenablog.com/entry/2022/02/27/201339</link>          <description>&lt;p&gt;世界モデル系&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;の先端手法である&lt;strong&gt;DreamerV2&lt;/strong&gt;を&lt;a class=&quot;keyword&quot; href=&quot;https://d.hatena.ne.jp/keyword/%A5%D6%A5%ED%A5%C3%A5%AF%CA%F8%A4%B7&quot;&gt;ブロック崩し&lt;/a&gt;（BreakoutDeterministic-v4）向けに実装しました。&lt;br&gt;&lt;/p&gt;
 
 &lt;ul class=&quot;table-of-contents&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;#はじめに&quot;&gt;はじめに&lt;/a&gt;&lt;ul&gt;
@@ -3745,24 +3659,18 @@ DreamerV2: &lt;a href=&quot;https://arxiv.org/abs/2010.02193&quot;&gt;[2010.0219
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-f30b9af4&quot; id=&quot;f-f30b9af4&quot; name=&quot;f-f30b9af4&quot; class=&quot;footnote-number&quot;&gt;*4&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;実際は単純和ではない&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-d7258634&quot; id=&quot;f-d7258634&quot; name=&quot;f-d7258634&quot; class=&quot;footnote-number&quot;&gt;*5&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;ResNetの中間出力を潜在変数と言うことが適切とは思えないが他によいワードが思いつかない&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-126b35c8&quot; id=&quot;f-126b35c8&quot; name=&quot;f-126b35c8&quot; class=&quot;footnote-number&quot;&gt;*6&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;ただし割引率γの図示は割愛&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/d53dab08b89cbd91b0f5a36876ca872cea6cc913/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20220115%2F20220115225039.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Sun, 27 Feb 2022 20:13:39 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/26006613800377468</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/d53dab08b89cbd91b0f5a36876ca872cea6cc913/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20220115%2F20220115225039.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>スッキリわかるAlphaFold2</title>
-        <link href="https://horomary.hatenablog.com/entry/2021/10/01/194825"/>
-        <id>hatenablog://entry/13574176438013439186</id>
-        <published>2021-10-01T19:48:25+09:00</published>
-        <updated>2021-10-01T19:48:25+09:00</updated>        <summary type="html">注意： Alphafold2の手法解説です。使い方の説明ではありません 構造生物学ドメインにはある程度の説明をつけます アーキテクチャ設計の意図については個人の考察であり、正しさに何ら保証がありません AttentionとTransformerそのものについての説明は行いません AlphaFold2とは タンパク質折り畳み問題について タンパク質はバイオ・ナノマシン タンパク質立体構造の重要性 データ駆動の立体構造予測 AlphaFold2の概観 4つのモジュール AF2のやってることをざっくり理解する 0. データ準備 MSA (Multiple sequence alignment) の作…</summary>
-        <content type="html">&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;&lt;/p&gt;
+      
+      
+        <item>
+          <title>スッキリわかるAlphaFold2</title>
+          <link>https://horomary.hatenablog.com/entry/2021/10/01/194825</link>          <description>&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Alphafold2の手法解説です。使い方の説明ではありません&lt;/li&gt;
@@ -4352,24 +4260,18 @@ AMBER分子力場による構造緩和に基づく、立体衝突などの分子
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-e2679fd6&quot; name=&quot;f-e2679fd6&quot; class=&quot;footnote-number&quot;&gt;*10&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;Supl. Table 2の直後あたりとAlgorithm 25 &lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-9a15ca0f&quot; name=&quot;f-9a15ca0f&quot; class=&quot;footnote-number&quot;&gt;*11&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;極端なHuber lossみたいなものと理解している&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-7375512c&quot; name=&quot;f-7375512c&quot; class=&quot;footnote-number&quot;&gt;*12&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;ORF8: &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%BF%B7%B7%BF%A5%B3%A5%ED%A5%CA%A5%A6%A5%A4%A5%EB%A5%B9&quot;&gt;新型コロナウイルス&lt;/a&gt;のアクセサリータンパクらしい&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/602c23dd1bfa5becf1b658af0adb0e5e13d002e6/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20211001%2F20211001152111.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Fri, 01 Oct 2021 19:48:25 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/13574176438013439186</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/602c23dd1bfa5becf1b658af0adb0e5e13d002e6/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20211001%2F20211001152111.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>GKE＋Rayで実装するマルチノード分散並列強化学習</title>
-        <link href="https://horomary.hatenablog.com/entry/2021/08/31/230256"/>
-        <id>hatenablog://entry/26006613799128782</id>
-        <published>2021-08-31T23:02:56+09:00</published>
-        <updated>2021-08-31T23:02:56+09:00</updated>        <summary type="html">Google Kubernetes Engine (GKE) とpythonの分散処並列理ライブラリRayで安価に大規模分散並列強化学習（Ape-Xアーキテクチャ）の実行環境をつくるチュートリアルです。GKEのプリエンプティブルインスタンスを活用することで、総リソース 128 vCPU, NVIDIA Tesla P4 x1, 256 GB memory のクラスタがざっくり150-200 円/時間になります。（2021年8月時点） はじめに 分散並列強化学習のメリット Ape-X アーキテクチャ なぜGKEを使うか？ プリエンプティブルVMが格安 Autoscalingがお手軽 なぜRayを…</summary>
-        <content type="html">&lt;p&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/Google&quot;&gt;Google&lt;/a&gt; &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/Kubernetes&quot;&gt;Kubernetes&lt;/a&gt; Engine (GKE) と&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/python&quot;&gt;python&lt;/a&gt;の分散処並列理ライブラリRayで&lt;strong&gt;安価に&lt;/strong&gt;大規模分散並列&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;（Ape-X&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%A2%A1%BC%A5%AD%A5%C6%A5%AF%A5%C1%A5%E3&quot;&gt;アーキテクチャ&lt;/a&gt;）の実行環境をつくる&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%C1%A5%E5%A1%BC%A5%C8%A5%EA%A5%A2%A5%EB&quot;&gt;チュートリアル&lt;/a&gt;です。GKEのプリエンプティブル&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%A4%A5%F3%A5%B9%A5%BF%A5%F3%A5%B9&quot;&gt;インスタンス&lt;/a&gt;を活用することで、&lt;strong&gt;総リソース 128 vCPU,  &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/NVIDIA&quot;&gt;NVIDIA&lt;/a&gt; Tesla P4 x1, 256 GB memory の&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%AF%A5%E9%A5%B9%A5%BF&quot;&gt;クラスタ&lt;/a&gt;がざっくり150-200 円/時間&lt;/strong&gt;になります。（2021年8月時点）&lt;/p&gt;
+      
+      
+        <item>
+          <title>GKE＋Rayで実装するマルチノード分散並列強化学習</title>
+          <link>https://horomary.hatenablog.com/entry/2021/08/31/230256</link>          <description>&lt;p&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/Google&quot;&gt;Google&lt;/a&gt; &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/Kubernetes&quot;&gt;Kubernetes&lt;/a&gt; Engine (GKE) と&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/python&quot;&gt;python&lt;/a&gt;の分散処並列理ライブラリRayで&lt;strong&gt;安価に&lt;/strong&gt;大規模分散並列&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;（Ape-X&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%A2%A1%BC%A5%AD%A5%C6%A5%AF%A5%C1%A5%E3&quot;&gt;アーキテクチャ&lt;/a&gt;）の実行環境をつくる&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%C1%A5%E5%A1%BC%A5%C8%A5%EA%A5%A2%A5%EB&quot;&gt;チュートリアル&lt;/a&gt;です。GKEのプリエンプティブル&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%A4%A5%F3%A5%B9%A5%BF%A5%F3%A5%B9&quot;&gt;インスタンス&lt;/a&gt;を活用することで、&lt;strong&gt;総リソース 128 vCPU,  &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/NVIDIA&quot;&gt;NVIDIA&lt;/a&gt; Tesla P4 x1, 256 GB memory の&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%AF%A5%E9%A5%B9%A5%BF&quot;&gt;クラスタ&lt;/a&gt;がざっくり150-200 円/時間&lt;/strong&gt;になります。（2021年8月時点）&lt;/p&gt;
 
 &lt;p&gt;&lt;figure class=&quot;figure-image figure-image-fotolife&quot; title=&quot;ray on gke&quot;&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/h/horomary/20210831/20210831230023.png&quot; alt=&quot;f:id:horomary:20210831230023p:plain:w700&quot; width=&quot;1200&quot; height=&quot;573&quot; loading=&quot;lazy&quot; title=&quot;&quot; class=&quot;hatena-fotolife&quot; style=&quot;width:700px&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
@@ -4725,24 +4627,18 @@ python /code/main.py --logdir log/tfboard --cluster --num_actors 100 --num_iters
 &lt;div class=&quot;footnote&quot;&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-a2816300&quot; name=&quot;f-a2816300&quot; class=&quot;footnote-number&quot;&gt;*1&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;EKSでも同じような機能があると思うけど&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/AWS&quot;&gt;AWS&lt;/a&gt;はよく知らない&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-fe54c5ff&quot; name=&quot;f-fe54c5ff&quot; class=&quot;footnote-number&quot;&gt;*2&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;ただし用途が巨大なデータフレームの分析なら素直にpysparkとかdaskを使うのが吉&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/ed303f81adc18c1cccd8954a409dfc978fa27c76/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210831%2F20210831230023.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Tue, 31 Aug 2021 23:02:56 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/26006613799128782</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/ed303f81adc18c1cccd8954a409dfc978fa27c76/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210831%2F20210831230023.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>MuZeroの実装解説（for Breakout）</title>
-        <link href="https://horomary.hatenablog.com/entry/2021/08/04/205601"/>
-        <id>hatenablog://entry/26006613776483364</id>
-        <published>2021-08-04T20:56:01+09:00</published>
-        <updated>2021-08-04T20:56:01+09:00</updated>        <summary type="html">MuZero = 状態遷移モデル＋AlphaZero を簡単に解説しつつ、atari環境のBreakout（ブロック崩し）向けにtensorflow2での実装例を紹介します MuZeroとは アルゴリズムの概要 モンテカルロ木探索 MuZero版モンテカルロ木探索 VAE系世界モデルとの比較 MuZero Reanalyze MuZeroの実装 メインループ Actorによるサンプル収集 MuZero版モンテカルロ木探索 ネットワーク構造 Learnerによるネットワーク更新 Breakoutの学習結果 次：？？？ Deepmind&#39;s MuZero (reimplementation for…</summary>
-        <content type="html">&lt;p&gt;&lt;strong&gt; MuZero = 状態遷移モデル＋AlphaZero &lt;/strong&gt;を簡単に解説しつつ、&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/atari&quot;&gt;atari&lt;/a&gt;環境のBreakout（&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%D6%A5%ED%A5%C3%A5%AF%CA%F8%A4%B7&quot;&gt;ブロック崩し&lt;/a&gt;）向けにtensorflow2での実装例を紹介します&lt;/p&gt;
+      
+      
+        <item>
+          <title>MuZeroの実装解説（for Breakout）</title>
+          <link>https://horomary.hatenablog.com/entry/2021/08/04/205601</link>          <description>&lt;p&gt;&lt;strong&gt; MuZero = 状態遷移モデル＋AlphaZero &lt;/strong&gt;を簡単に解説しつつ、&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/atari&quot;&gt;atari&lt;/a&gt;環境のBreakout（&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%D6%A5%ED%A5%C3%A5%AF%CA%F8%A4%B7&quot;&gt;ブロック崩し&lt;/a&gt;）向けにtensorflow2での実装例を紹介します&lt;/p&gt;
 
 &lt;ul class=&quot;table-of-contents&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;#MuZeroとは&quot;&gt;MuZeroとは&lt;/a&gt;&lt;/li&gt;
@@ -5007,24 +4903,18 @@ z = r_t  + \gamma ^{1} r_{t+1} +  \gamma ^{2} r_{t+2}  + ... + \gamma ^{t+k}  V_
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-f9d943b8&quot; name=&quot;f-f9d943b8&quot; class=&quot;footnote-number&quot;&gt;*3&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;単なるResNetの隠れ層について潜在変数という呼称が適切かは知らない&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-84e09e2f&quot; name=&quot;f-84e09e2f&quot; class=&quot;footnote-number&quot;&gt;*4&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B2%E2%A4%AC%B4%D8&quot;&gt;霞が関&lt;/a&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%D2%D8%E8%B8%CD%E5&quot;&gt;曼荼羅&lt;/a&gt;あるいは&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B8%BD%C2%E5%A5%A2%A1%BC%A5%C8&quot;&gt;現代アート&lt;/a&gt;とも&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-751a695b&quot; name=&quot;f-751a695b&quot; class=&quot;footnote-number&quot;&gt;*5&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;プリエンティブル&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/VM&quot;&gt;VM&lt;/a&gt;は格安だが24時間でシャットダウンされる&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/b56dfde795085e10b61ba293bc90cbbd55a47e2c/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210804%2F20210804010158.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Wed, 04 Aug 2021 20:56:01 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/26006613776483364</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/b56dfde795085e10b61ba293bc90cbbd55a47e2c/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210804%2F20210804010158.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>スッキリわかるAlphaZero</title>
-        <link href="https://horomary.hatenablog.com/entry/2021/06/21/000500"/>
-        <id>hatenablog://entry/26006613768993288</id>
-        <published>2021-06-21T00:05:00+09:00</published>
-        <updated>2021-06-21T00:05:00+09:00</updated>        <summary type="html">The game of Go has long been viewed as the most challenging of classic games for artificial intelligence 囲碁はAIにとってもっとも困難なボードゲームの一つと考えられてきました (Mastering the game of Go with deep neural networks and tree search | Nature より) Alpha Zero： https://science.sciencemag.org/content/362/6419/1140.full?ijkey=XG…</summary>
-        <content type="html">&lt;blockquote&gt;&lt;p&gt;The game of Go has long been viewed as the &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/most&quot;&gt;most&lt;/a&gt; challenging of classic games for artificial intelligence &lt;br&gt;
+      
+      
+        <item>
+          <title>スッキリわかるAlphaZero</title>
+          <link>https://horomary.hatenablog.com/entry/2021/06/21/000500</link>          <description>&lt;blockquote&gt;&lt;p&gt;The game of Go has long been viewed as the &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/most&quot;&gt;most&lt;/a&gt; challenging of classic games for artificial intelligence &lt;br&gt;
 &lt;i&gt; &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B0%CF%B8%EB&quot;&gt;囲碁&lt;/a&gt;はAIにとってもっとも困難な&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%DC%A1%BC%A5%C9%A5%B2%A1%BC%A5%E0&quot;&gt;ボードゲーム&lt;/a&gt;の一つと考えられてきました&lt;/i&gt;&lt;br&gt;
 (&lt;a href=&quot;https://www.nature.com/articles/nature16961&quot;&gt;Mastering the game of Go with deep neural networks and tree search | Nature&lt;/a&gt; より)&lt;/p&gt;&lt;/blockquote&gt;
 
@@ -5470,24 +5360,18 @@ z = r_t  + \gamma ^{1} r_{t+1} +  \gamma ^{2} r_{t+2}  + ... + \gamma ^{t+k}  V_
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-6570b259&quot; name=&quot;f-6570b259&quot; class=&quot;footnote-number&quot;&gt;*7&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;メモリは16GBあれば十分だった&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-99abb5c2&quot; name=&quot;f-99abb5c2&quot; class=&quot;footnote-number&quot;&gt;*8&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;探索と活用の&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%C8%A5%EC%A1%BC%A5%C9%A5%AA%A5%D5&quot;&gt;トレードオフ&lt;/a&gt;を決定するハイパラ調整次第ではあるけど&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-852dc211&quot; name=&quot;f-852dc211&quot; class=&quot;footnote-number&quot;&gt;*9&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;このあたりのじゃんけん的な要素のがあるメタゲームをより深く研究したのがAlphaStarなのかもしれません&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/d3bead2ff0bd08e15c43cf9fe86509a589588069/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210620%2F20210620111651.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Mon, 21 Jun 2021 00:05:00 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/26006613768993288</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/d3bead2ff0bd08e15c43cf9fe86509a589588069/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210620%2F20210620111651.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>rayで実装する分散強化学習 ④R2D2</title>
-        <link href="https://horomary.hatenablog.com/entry/2021/05/15/221756"/>
-        <id>hatenablog://entry/26006613720270299</id>
-        <published>2021-05-15T22:17:56+09:00</published>
-        <updated>2021-05-15T22:17:56+09:00</updated>        <summary type="html">Ape-XにRNNを導入することでatari環境において圧倒的SotAを叩き出した分散強化学習手法 R2D2（Recurrent Experience Replay in Distributed Reinforcement Learning）をtensorflow＋pythonの分散並列処理ライブラリrayで実装します Recurrent Experience Replay in Distributed Reinforcement Learning | OpenReview はじめに RNNの必要性 RNN（LSTM）の困難 困難①：経験再生時の初期LSTM状態をどうするか？ 困難②：ネットワ…</summary>
-        <content type="html">&lt;p&gt;Ape-XにRNNを導入することで&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/atari&quot;&gt;atari&lt;/a&gt;環境において圧倒的SotAを叩き出した分散&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;手法 &lt;strong&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/R2D2&quot;&gt;R2D2&lt;/a&gt;（Recurrent Experience Replay in Distributed &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/Reinforcement%20Learning&quot;&gt;Reinforcement Learning&lt;/a&gt;）&lt;/strong&gt;をtensorflow＋&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/python&quot;&gt;python&lt;/a&gt;の分散並列処理ライブラリrayで実装します&lt;/p&gt;
+      
+      
+        <item>
+          <title>rayで実装する分散強化学習 ④R2D2</title>
+          <link>https://horomary.hatenablog.com/entry/2021/05/15/221756</link>          <description>&lt;p&gt;Ape-XにRNNを導入することで&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/atari&quot;&gt;atari&lt;/a&gt;環境において圧倒的SotAを叩き出した分散&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;手法 &lt;strong&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/R2D2&quot;&gt;R2D2&lt;/a&gt;（Recurrent Experience Replay in Distributed &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/Reinforcement%20Learning&quot;&gt;Reinforcement Learning&lt;/a&gt;）&lt;/strong&gt;をtensorflow＋&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/python&quot;&gt;python&lt;/a&gt;の分散並列処理ライブラリrayで実装します&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://openreview.net/forum?id=r1lyTjAqYX&quot;&gt;Recurrent Experience Replay in Distributed Reinforcement Learning | OpenReview&lt;/a&gt;&lt;/p&gt;
 
@@ -5757,24 +5641,18 @@ c_{t-1}
 &lt;div class=&quot;footnote&quot;&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-b1464699&quot; name=&quot;f-b1464699&quot; class=&quot;footnote-number&quot;&gt;*1&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1507.06527&quot;&gt;https://arxiv.org/abs/1507.06527&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-82972a14&quot; name=&quot;f-82972a14&quot; class=&quot;footnote-number&quot;&gt;*2&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;NoFrameSkip環境でなければ実質16フレーム&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/efea4e44406fb35cb08f60fde4bb0036a77a7b4f/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210509%2F20210509220012.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Sat, 15 May 2021 22:17:56 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/26006613720270299</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/efea4e44406fb35cb08f60fde4bb0036a77a7b4f/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210509%2F20210509220012.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>深層分布強化学習 ③FQF: Fully Parameterized Quantile Function for Distributional RL</title>
-        <link href="https://horomary.hatenablog.com/entry/2021/04/23/214611"/>
-        <id>hatenablog://entry/26006613712081761</id>
-        <published>2021-04-23T21:46:11+09:00</published>
-        <updated>2021-04-23T21:46:11+09:00</updated>        <summary type="html">単体でRainbow越えを達成した深層分布強化学習手法FQFをtensorflow2で実装します。 はじめに C51 → QR-DQN → IQN FQFとは：いい感じのτを提案する機構付きのIQN FQFネットワークの実装 FQFアーキテクチャ Feature network：特徴抽出ネットワーク Fraction proposal network：分位提案ネットワーク Quantile function network：分位点予測ネットワーク FQFネットワークの更新 分位提案ネットワークの更新 学習結果：Breakout環境 前提手法： horomary.hatenablog.com h…</summary>
-        <content type="html">&lt;p&gt;単体でRainbow越えを達成した深層分布&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;手法FQFをtensorflow2で実装します。&lt;/p&gt;
+      
+      
+        <item>
+          <title>深層分布強化学習 ③FQF: Fully Parameterized Quantile Function for Distributional RL</title>
+          <link>https://horomary.hatenablog.com/entry/2021/04/23/214611</link>          <description>&lt;p&gt;単体でRainbow越えを達成した深層分布&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;手法FQFをtensorflow2で実装します。&lt;/p&gt;
 
 &lt;ul class=&quot;table-of-contents&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;#はじめに&quot;&gt;はじめに&lt;/a&gt;&lt;/li&gt;
@@ -5976,24 +5854,18 @@ F_{z}^{-1}
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-27aa4d65&quot; name=&quot;f-27aa4d65&quot; class=&quot;footnote-number&quot;&gt;*2&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;このあたりの議論はC51論文を参照&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-5aa53357&quot; name=&quot;f-5aa53357&quot; class=&quot;footnote-number&quot;&gt;*3&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;&lt;a href=&quot;https://stackoverflow.com/questions/50967885/tf-gradients-how-can-i-understand-grad-ys-and-use-it/50979176&quot;&gt;tensorflow - tf.gradients, how can I understand `grad_ys` and use it? - Stack Overflow&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-7e1ac47e&quot; name=&quot;f-7e1ac47e&quot; class=&quot;footnote-number&quot;&gt;*4&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;Readme.md, BugFixedの項：It is recommended to use the L2 loss on gradient for probability proposal network&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/610a7abd6fa1ae1fc776fb8e5fc9d93ea4a86cc1/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210419%2F20210419204245.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Fri, 23 Apr 2021 21:46:11 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/26006613712081761</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/610a7abd6fa1ae1fc776fb8e5fc9d93ea4a86cc1/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210419%2F20210419204245.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>深層分布強化学習 ②QR-DQN</title>
-        <link href="https://horomary.hatenablog.com/entry/2021/04/03/190603"/>
-        <id>hatenablog://entry/26006613696361201</id>
-        <published>2021-04-03T19:06:03+09:00</published>
-        <updated>2021-04-03T19:06:03+09:00</updated>        <summary type="html">QR-DQNをtensorflow2で実装します。 元論文： [1710.10044] Distributional Reinforcement Learning with Quantile Regression はじめに Categorical DQNの分布モデル QR-DQNの分布モデル 分位点回帰 分位点Huberloss QR-DQNの実装 QRネットワークの実装 分位点ロスによるネットワーク更新 Breakoutでの学習結果 次：FQF 前記事： horomary.hatenablog.com 参考： https://physai.sciencesconf.org/data/page…</summary>
-        <content type="html">&lt;p&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/QR&quot;&gt;QR&lt;/a&gt;-&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;をtensorflow2で実装します。&lt;br&gt;
+      
+      
+        <item>
+          <title>深層分布強化学習 ②QR-DQN</title>
+          <link>https://horomary.hatenablog.com/entry/2021/04/03/190603</link>          <description>&lt;p&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/QR&quot;&gt;QR&lt;/a&gt;-&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;をtensorflow2で実装します。&lt;br&gt;
 元論文： &lt;a href=&quot;https://arxiv.org/abs/1710.10044&quot;&gt;[1710.10044] Distributional Reinforcement Learning with Quantile Regression&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul class=&quot;table-of-contents&quot;&gt;
@@ -6197,24 +6069,18 @@ loss = tf.reduce_sum(total_quantile_huberloss, axis=&lt;span class=&quot;synCons
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-7274c8c4&quot; name=&quot;f-7274c8c4&quot; class=&quot;footnote-number&quot;&gt;*4&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;とくにバッチサイズ大きいと処理が重い。このあたりの煩雑さがパフォーマンスは優秀なのにApeX-&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;ではハブられた理由なのではないかと邪推している&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-1e48d35d&quot; name=&quot;f-1e48d35d&quot; class=&quot;footnote-number&quot;&gt;*5&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt; &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/atari&quot;&gt;atari&lt;/a&gt;環境ではreward clippingが有効なのであまり問題になりません&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-825afb6c&quot; name=&quot;f-825afb6c&quot; class=&quot;footnote-number&quot;&gt;*6&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;分かりやすさのため分位を明示しているが、確率密度に従ってサンプリングされていれば分位が分かっている必要はない&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/84d43a77c4c2faf4f5cf615063f583254c427606/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210331%2F20210331230243.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Sat, 03 Apr 2021 19:06:03 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/26006613696361201</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/84d43a77c4c2faf4f5cf615063f583254c427606/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210331%2F20210331230243.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>rayで実装する分散強化学習 ③Ape-X DQN</title>
-        <link href="https://horomary.hatenablog.com/entry/2021/03/02/235512"/>
-        <id>hatenablog://entry/26006613689118899</id>
-        <published>2021-03-02T23:55:12+09:00</published>
-        <updated>2021-03-02T23:55:12+09:00</updated>        <summary type="html">深層強化学習における超大規模分散並列化の有用性を示したApeX-DQN（Distributed Prioritized Experience Replay）をtensorflow2とrayで実装します。手法の構成要素自体はRainbowとだいたい同じであるため、本記事の焦点は分散並列学習の実装です。 はじめに Ape-X DQN の概要 Learnerの役割 Actorの役割 Replayの役割 Rainbowからの継承要素 大規模並列Actorの効果検証 CartPole環境での簡易実装 分散学習の実装 Actorの実装 Replayの実装 Learnerの実装 Qネットワーク 学習結果：C…</summary>
-        <content type="html">&lt;p&gt;深層&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;における超大規模分散並列化の有用性を示したApeX-&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;（Distributed Prioritized Experience Replay）をtensorflow2とrayで実装します。手法の構成要素自体はRainbowとだいたい同じであるため、本記事の焦点は分散並列学習の実装です。&lt;/p&gt;
+      
+      
+        <item>
+          <title>rayで実装する分散強化学習 ③Ape-X DQN</title>
+          <link>https://horomary.hatenablog.com/entry/2021/03/02/235512</link>          <description>&lt;p&gt;深層&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;における超大規模分散並列化の有用性を示したApeX-&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;（Distributed Prioritized Experience Replay）をtensorflow2とrayで実装します。手法の構成要素自体はRainbowとだいたい同じであるため、本記事の焦点は分散並列学習の実装です。&lt;/p&gt;
 
 &lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/h/horomary/20210227/20210227174718.png&quot; alt=&quot;f:id:horomary:20210227174718p:plain:w1000&quot; title=&quot;&quot; class=&quot;hatena-fotolife&quot; style=&quot;width:1000px&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 
@@ -6435,24 +6301,18 @@ loss = tf.reduce_sum(total_quantile_huberloss, axis=&lt;span class=&quot;synCons
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-8694b929&quot; name=&quot;f-8694b929&quot; class=&quot;footnote-number&quot;&gt;*7&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;もし実装レベルまで論文を再現したいならtensorflow.Queueで実装する&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-8b6d1e52&quot; name=&quot;f-8b6d1e52&quot; class=&quot;footnote-number&quot;&gt;*8&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;論文では400stepごとに重みを同期、とあるのでこの実装のように毎回同期はしない&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-f6fe69ad&quot; name=&quot;f-f6fe69ad&quot; class=&quot;footnote-number&quot;&gt;*9&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/GCP&quot;&gt;GCP&lt;/a&gt;へのリソース割り当て増加リク&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%A8%A5%B9&quot;&gt;エス&lt;/a&gt;トが通らなかった&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/9e34f664d872bfe22c02871979beb588597ba121/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210227%2F20210227174718.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Tue, 02 Mar 2021 23:55:12 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/26006613689118899</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/9e34f664d872bfe22c02871979beb588597ba121/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210227%2F20210227174718.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>Segment Tree（セグメント木）による重み付きランダムサンプリング</title>
-        <link href="https://horomary.hatenablog.com/entry/2021/02/16/005113"/>
-        <id>hatenablog://entry/26006613691131684</id>
-        <published>2021-02-16T00:51:13+09:00</published>
-        <updated>2021-02-16T00:51:13+09:00</updated>        <summary type="html">競技プログラミング界隈では一般教養であるらしいセグメント木のSum-tree構造で高速な重み付きサンプリングを実装します。 はじめに A. numpy.choiceによる重み付きランダムサンプリング B. 累積和による重み付きランダムサンプリング C. Sum-tree構造を活用した重み付きランダムサンプリング Sum-TreeのPython実装 速度パフォーマンスの確認 おわりに はじめに 強化学習の重要手法である優先度付き経験再生（Prioritized Experience Replay）では、重みづけされた100万の経験（遷移情報）からランダムにサンプリングしてミニバッチを作成する、と…</summary>
-        <content type="html">&lt;p&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%A5%B5%BB%A5%D7%A5%ED%A5%B0%A5%E9%A5%DF%A5%F3%A5%B0&quot;&gt;競技プログラミング&lt;/a&gt;界隈では一般教養であるらしいセグメント木のSum-tree構造で高速な重み付きサンプリングを実装します。&lt;/p&gt;
+      
+      
+        <item>
+          <title>Segment Tree（セグメント木）による重み付きランダムサンプリング</title>
+          <link>https://horomary.hatenablog.com/entry/2021/02/16/005113</link>          <description>&lt;p&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%A5%B5%BB%A5%D7%A5%ED%A5%B0%A5%E9%A5%DF%A5%F3%A5%B0&quot;&gt;競技プログラミング&lt;/a&gt;界隈では一般教養であるらしいセグメント木のSum-tree構造で高速な重み付きサンプリングを実装します。&lt;/p&gt;
 
 &lt;ul class=&quot;table-of-contents&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;#はじめに&quot;&gt;はじめに&lt;/a&gt;&lt;/li&gt;
@@ -6550,24 +6410,18 @@ loss = tf.reduce_sum(total_quantile_huberloss, axis=&lt;span class=&quot;synCons
 &lt;h2 id=&quot;おわりに&quot;&gt;おわりに&lt;/h2&gt;
 
 &lt;p&gt;&lt;code&gt;__setitem__&lt;/code&gt;、&lt;code&gt;__getitem__&lt;/code&gt; が一番輝くのはsegment tree説&lt;/p&gt;
-</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/010f8c39c365713e241b7e798c776284bf1f5b3f/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210215%2F20210215235032.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+</description>          <pubDate>Tue, 16 Feb 2021 00:51:13 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/26006613691131684</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/010f8c39c365713e241b7e798c776284bf1f5b3f/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210215%2F20210215235032.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>DQNの進化史 ④Rainbowの実装</title>
-        <link href="https://horomary.hatenablog.com/entry/2021/02/11/173638"/>
-        <id>hatenablog://entry/26006613688363670</id>
-        <published>2021-02-11T17:36:38+09:00</published>
-        <updated>2021-02-11T17:36:38+09:00</updated>        <summary type="html">Deep-Q-Network (2013) 以降の深層強化学習（Q学習）の発展を、簡単な解説とtensorflow2での実装例と共に紹介していきます。今回はDQNの改良トリックを全部盛りにしたら強いんでは？という脳筋発想によって生まれた手法であるRainbowを実装します。 DQNシリーズ DQNの進化史 ①DeepMindのDQN - どこから見てもメンダコ DQNの進化史 ②Double-DQN, Dueling-network, Noisy-network - どこから見てもメンダコ DQNの進化史 ③優先度付き経験再生, Multi-step learning, C51 - どこから見…</summary>
-        <content type="html">&lt;p&gt;Deep-Q-Network (2013) 以降の深層&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;（Q学習）の発展を、簡単な解説とtensorflow2での実装例と共に紹介していきます。今回は&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;の改良トリックを全部盛りにしたら強いんでは？という&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%C7%BE%B6%DA&quot;&gt;脳筋&lt;/a&gt;発想によって生まれた手法であるRainbowを実装します。&lt;/p&gt;
+      
+      
+        <item>
+          <title>DQNの進化史 ④Rainbowの実装</title>
+          <link>https://horomary.hatenablog.com/entry/2021/02/11/173638</link>          <description>&lt;p&gt;Deep-Q-Network (2013) 以降の深層&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;（Q学習）の発展を、簡単な解説とtensorflow2での実装例と共に紹介していきます。今回は&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;の改良トリックを全部盛りにしたら強いんでは？という&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%C7%BE%B6%DA&quot;&gt;脳筋&lt;/a&gt;発想によって生まれた手法であるRainbowを実装します。&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
@@ -6684,24 +6538,18 @@ loss = tf.reduce_sum(total_quantile_huberloss, axis=&lt;span class=&quot;synCons
 &lt;div class=&quot;footnote&quot;&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-4e153b12&quot; name=&quot;f-4e153b12&quot; class=&quot;footnote-number&quot;&gt;*1&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;24時間でシャットダウンされる代わりに激安な&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%A4%A5%F3%A5%B9%A5%BF%A5%F3%A5%B9&quot;&gt;インスタンス&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-46d9675d&quot; name=&quot;f-46d9675d&quot; class=&quot;footnote-number&quot;&gt;*2&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;低スぺ対応のためにzlibでオブジェクト圧縮したり重みつきサンプリングをnp.random.choiceで実装したり&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/f8b28c12b097612128b42286469db3913bf74b88/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210211%2F20210211143435.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Thu, 11 Feb 2021 17:36:38 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/26006613688363670</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/f8b28c12b097612128b42286469db3913bf74b88/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210211%2F20210211143435.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>DQNの進化史 ③優先度付き経験再生, Multi-step learning, C51</title>
-        <link href="https://horomary.hatenablog.com/entry/2021/02/09/235108"/>
-        <id>hatenablog://entry/26006613687829768</id>
-        <published>2021-02-09T23:51:08+09:00</published>
-        <updated>2021-02-09T23:51:08+09:00</updated>        <summary type="html">Deep-Q-Network以降の深層強化学習（というか深層Q学習）の発展を、簡単な解説とtensorflow2での実装例と共に紹介していきます。今回は経験再生の改良である優先度付き経験再生（Prioritized experience replay）、方策勾配法ではよく使われるMulti-step learning, そして深層分布強化学習の有用性を示したCategorical DQN を紹介します。 DQNシリーズ DQNの進化史 ①DeepMindのDQN - どこから見てもメンダコ DQNの進化史 ②Double-DQN, Dueling-network, Noisy-network …</summary>
-        <content type="html">&lt;p&gt;Deep-Q-Network以降の深層&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;（というか深層Q学習）の発展を、簡単な解説とtensorflow2での実装例と共に紹介していきます。今回は&lt;strong&gt;経験再生の改良である優先度付き経験再生（Prioritized experience replay）、方策勾配法ではよく使われるMulti-step learning, そして深層分布&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;の有用性を示したCategorical &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;&lt;/strong&gt; を紹介します。&lt;/p&gt;
+      
+      
+        <item>
+          <title>DQNの進化史 ③優先度付き経験再生, Multi-step learning, C51</title>
+          <link>https://horomary.hatenablog.com/entry/2021/02/09/235108</link>          <description>&lt;p&gt;Deep-Q-Network以降の深層&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;（というか深層Q学習）の発展を、簡単な解説とtensorflow2での実装例と共に紹介していきます。今回は&lt;strong&gt;経験再生の改良である優先度付き経験再生（Prioritized experience replay）、方策勾配法ではよく使われるMulti-step learning, そして深層分布&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;の有用性を示したCategorical &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;&lt;/strong&gt; を紹介します。&lt;/p&gt;
 
 &lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;シリーズ&lt;/strong&gt;&lt;br&gt;
 &lt;a href=&quot;https://horomary.hatenablog.com/entry/2021/01/26/233351&quot;&gt;DQN&amp;#x306E;&amp;#x9032;&amp;#x5316;&amp;#x53F2; &amp;#x2460;DeepMind&amp;#x306E;DQN - &amp;#x3069;&amp;#x3053;&amp;#x304B;&amp;#x3089;&amp;#x898B;&amp;#x3066;&amp;#x3082;&amp;#x30E1;&amp;#x30F3;&amp;#x30C0;&amp;#x30B3;&lt;/a&gt;&lt;br&gt;
@@ -6857,24 +6705,18 @@ w_i =  \Big(\frac{1}{N} \cdot \frac{1}{P(i)} \Big)^{\beta}
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-04804285&quot; name=&quot;f-04804285&quot; class=&quot;footnote-number&quot;&gt;*2&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;競プロの一般教養らしい. rllibの実装がわかりやすい &lt;a href=&quot;https://github.com/ray-project/ray/blob/master/rllib/execution/segment_tree.py&quot;&gt;ray/segment_tree.py at master &amp;middot; ray-project/ray &amp;middot; GitHub&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-49b9d491&quot; name=&quot;f-49b9d491&quot; class=&quot;footnote-number&quot;&gt;*3&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;勾配クリップと似たような効果かなと思っている&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-e7c70ece&quot; name=&quot;f-e7c70ece&quot; class=&quot;footnote-number&quot;&gt;*4&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;Distributional &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;と呼称されることもあります。&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/74ad9900ca93075264e5af50b098864557f8bf59/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210208%2F20210208220529.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Tue, 09 Feb 2021 23:51:08 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/26006613687829768</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/74ad9900ca93075264e5af50b098864557f8bf59/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210208%2F20210208220529.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>DQNの進化史 ②Double-DQN, Dueling-network, Noisy-network</title>
-        <link href="https://horomary.hatenablog.com/entry/2021/02/06/013412"/>
-        <id>hatenablog://entry/26006613686929198</id>
-        <published>2021-02-06T01:34:12+09:00</published>
-        <updated>2021-02-06T01:34:12+09:00</updated>        <summary type="html">Deep-Q-Network (2013) 以降の深層強化学習（Q学習）の発展を、簡単な解説とtensorflow2での実装例と共に紹介していきます。今回はオリジナルのDQNを微修正するだけで実装可能な改良手法である、Double DQN , Dueling-network, そしてNoisy-network の３つを紹介します。 DQNシリーズ DQNの進化史 ①DeepMindのDQN - どこから見てもメンダコ DQNの進化史 ②Double-DQN, Dueling-network, Noisy-network - どこから見てもメンダコ DQNの進化史 ③Prioritized ex…</summary>
-        <content type="html">&lt;p&gt;Deep-Q-Network (2013) 以降の深層&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;（Q学習）の発展を、簡単な解説とtensorflow2での実装例と共に紹介していきます。今回は&lt;strong&gt;オリジナルの&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;を微修正するだけで実装可能な改良手法&lt;/strong&gt;である、&lt;strong&gt;Double &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt; , Dueling-network, そしてNoisy-network&lt;/strong&gt; の３つを紹介します。&lt;/p&gt;
+      
+      
+        <item>
+          <title>DQNの進化史 ②Double-DQN, Dueling-network, Noisy-network</title>
+          <link>https://horomary.hatenablog.com/entry/2021/02/06/013412</link>          <description>&lt;p&gt;Deep-Q-Network (2013) 以降の深層&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;（Q学習）の発展を、簡単な解説とtensorflow2での実装例と共に紹介していきます。今回は&lt;strong&gt;オリジナルの&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;を微修正するだけで実装可能な改良手法&lt;/strong&gt;である、&lt;strong&gt;Double &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt; , Dueling-network, そしてNoisy-network&lt;/strong&gt; の３つを紹介します。&lt;/p&gt;
 
 &lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;シリーズ&lt;/strong&gt;&lt;br&gt;
 &lt;a href=&quot;https://horomary.hatenablog.com/entry/2021/01/26/233351&quot;&gt;DQN&amp;#x306E;&amp;#x9032;&amp;#x5316;&amp;#x53F2; &amp;#x2460;DeepMind&amp;#x306E;DQN - &amp;#x3069;&amp;#x3053;&amp;#x304B;&amp;#x3089;&amp;#x898B;&amp;#x3066;&amp;#x3082;&amp;#x30E1;&amp;#x30F3;&amp;#x30C0;&amp;#x30B3;&lt;/a&gt;&lt;br&gt;
@@ -7052,24 +6894,18 @@ E \left[{ \underset{a}{\max} Q^{*}(s, a) }\right] \neq 0
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-39cbd948&quot; name=&quot;f-39cbd948&quot; class=&quot;footnote-number&quot;&gt;*3&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;ただし、Dueling-networkはあくまでV(s)とA(s, a)っぽいものを学習出来たらいいな、ということを狙ったネットワーク構造というだけであり本当にV(s), A(s, a)を学習している保証はないことに留意ください。&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-e13d337e&quot; name=&quot;f-e13d337e&quot; class=&quot;footnote-number&quot;&gt;*4&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;論文では他に A = A - max(A)とする方法も提案されているが平均を引く方が性能が良いらしい。&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-318b7c8b&quot; name=&quot;f-318b7c8b&quot; class=&quot;footnote-number&quot;&gt;*5&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;CartPole環境程度ならεを固定値にしてもあんま問題ありません&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/aab25aaf41fc417d8ee74ea932def56e6390dc39/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20200609%2F20200609215031.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Sat, 06 Feb 2021 01:34:12 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/26006613686929198</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/aab25aaf41fc417d8ee74ea932def56e6390dc39/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20200609%2F20200609215031.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>DQNの進化史 ①DeepMindのDQN</title>
-        <link href="https://horomary.hatenablog.com/entry/2021/01/26/233351"/>
-        <id>hatenablog://entry/26006613674797054</id>
-        <published>2021-01-26T23:33:51+09:00</published>
-        <updated>2021-01-26T23:33:51+09:00</updated>        <summary type="html">DeepMindのDQNからR2D2くらいまでの深層強化学習（Q学習）の発展の歴史を、簡単な解説とtensorflow2での実装例と共に紹介していきます。 まずは深層強化学習の新たな時代を切り開いたDeepMindのDQN（2013）です。論文からはわかりにくいatari環境向けの実装上のテクニックとDQNを構成する各要素が後継手法でどのように改良されていったかのレビューに焦点を置いてBreakout（ブロック崩し）向けにtensorflow2での実装例を紹介します。 DQNシリーズ DQNの進化史 ①DeepMindのDQN - どこから見てもメンダコ DQNの進化史 ②Double-DQN…</summary>
-        <content type="html">&lt;p&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DeepMind&quot;&gt;DeepMind&lt;/a&gt;の&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;から&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/R2D2&quot;&gt;R2D2&lt;/a&gt;くらいまでの深層&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;（Q学習）の発展の歴史を、簡単な解説とtensorflow2での実装例と共に紹介していきます。&lt;/p&gt;
+      
+      
+        <item>
+          <title>DQNの進化史 ①DeepMindのDQN</title>
+          <link>https://horomary.hatenablog.com/entry/2021/01/26/233351</link>          <description>&lt;p&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DeepMind&quot;&gt;DeepMind&lt;/a&gt;の&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;から&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/R2D2&quot;&gt;R2D2&lt;/a&gt;くらいまでの深層&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;（Q学習）の発展の歴史を、簡単な解説とtensorflow2での実装例と共に紹介していきます。&lt;/p&gt;
 
 &lt;p&gt;まずは深層&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;の新たな時代を切り開いた&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DeepMind&quot;&gt;DeepMind&lt;/a&gt;の&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;（2013）です。&lt;strong&gt;論文からはわかりにくい&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/atari&quot;&gt;atari&lt;/a&gt;環境向けの実装上のテクニック&lt;/strong&gt;と&lt;strong&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;を構成する各要素が後継手法でどのように改良されていったかのレビュー&lt;/strong&gt;に焦点を置いてBreakout（&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%D6%A5%ED%A5%C3%A5%AF%CA%F8%A4%B7&quot;&gt;ブロック崩し&lt;/a&gt;）向けに&lt;strong&gt;tensorflow2&lt;/strong&gt;での実装例を紹介します。&lt;/p&gt;
 
@@ -7327,24 +7163,18 @@ Document, 1993.
 &lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-43156f7a&quot; name=&quot;f-43156f7a&quot; class=&quot;footnote-number&quot;&gt;*4&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;私が知らないだけかも&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-e4603ed5&quot; name=&quot;f-e4603ed5&quot; class=&quot;footnote-number&quot;&gt;*5&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;激安な代わりに最長24時間で停止するうえに&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/GCP&quot;&gt;GCP&lt;/a&gt;のリソース上の都合により突然シャットダウンされうることもある&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/VM&quot;&gt;VM&lt;/a&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%A4%A5%F3%A5%B9%A5%BF%A5%F3%A5%B9&quot;&gt;インスタンス&lt;/a&gt;。プリエンティブル&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/VM&quot;&gt;VM&lt;/a&gt;で&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/GPU&quot;&gt;GPU&lt;/a&gt;は東京リージョンなどでは2021年1月現在使えないはずなので米国リージョンを選ぼう&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/8e62bf03d90b2e8351a02f9a146490339a0eb2b9/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210125%2F20210125000147.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Tue, 26 Jan 2021 23:33:51 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/26006613674797054</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/8e62bf03d90b2e8351a02f9a146490339a0eb2b9/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210125%2F20210125000147.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>CMA-ES（共分散行列適応進化戦略）の Python実装</title>
-        <link href="https://horomary.hatenablog.com/entry/2021/01/23/013508"/>
-        <id>hatenablog://entry/26006613674453549</id>
-        <published>2021-01-23T01:35:08+09:00</published>
-        <updated>2021-01-23T01:35:08+09:00</updated>        <summary type="html">実用性の高いブラックボックス最適化手法 CMA-ES(共分散行列適応進化戦略) のpython実装例を簡単なアルゴリズム解説とともに紹介します。 はじめに アルゴリズム概要 0. 入力次元数に依存する定数の算出とパラメータ初期化 1. 多変量正規分布に従う個体サンプリング 2. 正規分布中心mの更新 3. ステップサイズσの更新 4. 共分散行列Cの更新 実装の確認 はじめに CMA-ESは連続最適化問題におけるブラックボックス最適化手法のひとつです。ブラックボックス最適化、すなわち最適化したい関数の中身がまったくわからなくてもOKなので極論どんな問題にでも適用可能で、確率的な探索を行うアルゴ…</summary>
-        <content type="html">&lt;p&gt;実用性の高い&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%D6%A5%E9%A5%C3%A5%AF%A5%DC%A5%C3%A5%AF%A5%B9&quot;&gt;ブラックボックス&lt;/a&gt;最適化手法 CMA-ES(共分散行列適応進化戦略) の&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/python&quot;&gt;python&lt;/a&gt;実装例を簡単な&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0&quot;&gt;アルゴリズム&lt;/a&gt;解説とともに紹介します。&lt;/p&gt;
+      
+      
+        <item>
+          <title>CMA-ES（共分散行列適応進化戦略）の Python実装</title>
+          <link>https://horomary.hatenablog.com/entry/2021/01/23/013508</link>          <description>&lt;p&gt;実用性の高い&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%D6%A5%E9%A5%C3%A5%AF%A5%DC%A5%C3%A5%AF%A5%B9&quot;&gt;ブラックボックス&lt;/a&gt;最適化手法 CMA-ES(共分散行列適応進化戦略) の&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/python&quot;&gt;python&lt;/a&gt;実装例を簡単な&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0&quot;&gt;アルゴリズム&lt;/a&gt;解説とともに紹介します。&lt;/p&gt;
 
 &lt;p&gt;&lt;figure class=&quot;figure-image figure-image-fotolife&quot; title=&quot;右は目的関数&quot;&gt;&lt;div class=&quot;images-row mceNonEditable&quot;&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/h/horomary/20210117/20210117213110.gif&quot; alt=&quot;f:id:horomary:20210117213110g:plain:w400&quot; title=&quot;&quot; class=&quot;hatena-fotolife&quot; style=&quot;width:400px&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/h/horomary/20210117/20210117224720.png&quot; alt=&quot;f:id:horomary:20210117224720p:plain:w400&quot; title=&quot;&quot; class=&quot;hatena-fotolife&quot; style=&quot;width:400px&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/p&gt;
 
@@ -7543,24 +7373,18 @@ Document, 1993.
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt; 本稿で実装したのは (μ/μw, λ)-CMA-ES という最も王道なCMA-ESの実装ですが、CMAESはいろいろな派生手法があることに留意ください。&lt;/p&gt;
-</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/bab4edbbbccc5c4e413f450b29598b82e5a0a367/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210117%2F20210117213110.gif" type="image/gif" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+</description>          <pubDate>Sat, 23 Jan 2021 01:35:08 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/26006613674453549</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/bab4edbbbccc5c4e413f450b29598b82e5a0a367/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210117%2F20210117213110.gif" type="image/gif" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>深層分布強化学習 ① Categorical DQN（C51）</title>
-        <link href="https://horomary.hatenablog.com/entry/2021/01/07/000529"/>
-        <id>hatenablog://entry/26006613669203170</id>
-        <published>2021-01-07T00:05:29+09:00</published>
-        <updated>2021-01-07T00:05:29+09:00</updated>        <summary type="html">分布強化学習（distributional reinforcement learning）の概念を深層強化学習へ導入したCategorical DQN（C51）をtensorflow2で実装します。 why restrict ourselves to the mean? ― [1707.06887] A Distributional Perspective on Reinforcement Learning はじめに 分布強化学習 (Distributional Reinforcement Learning) 通常のベルマン方程式 分布版ベルマン方程式 ベルマンエラーの計算（分布版） Cate…</summary>
-        <content type="html">&lt;p&gt;分布&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;（distributional &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/reinforcement%20learning&quot;&gt;reinforcement learning&lt;/a&gt;）の概念を深層&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;へ導入したCategorical &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;（C51）をtensorflow2で実装します。&lt;br&gt;&lt;/p&gt;
+      
+      
+        <item>
+          <title>深層分布強化学習 ① Categorical DQN（C51）</title>
+          <link>https://horomary.hatenablog.com/entry/2021/01/07/000529</link>          <description>&lt;p&gt;分布&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;（distributional &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/reinforcement%20learning&quot;&gt;reinforcement learning&lt;/a&gt;）の概念を深層&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;へ導入したCategorical &lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;（C51）をtensorflow2で実装します。&lt;br&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;&lt;p&gt;&lt;i&gt; &lt;strong&gt;why restrict ourselves to the mean?&lt;/strong&gt;&lt;br&gt;
 &lt;/i&gt;
@@ -7844,24 +7668,18 @@ a&amp;#39; = \text{arg} \max_{a&amp;#39; \in A} E \left[{ Z(s&amp;#39;, a&amp;#3
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;div class=&quot;footnote&quot;&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-4a8f25f4&quot; name=&quot;f-4a8f25f4&quot; class=&quot;footnote-number&quot;&gt;*1&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/DQN&quot;&gt;DQN&lt;/a&gt;だと huber loss&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/b168d3b1c37a762fe6cb54057c4aa2d91928a1bc/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210105%2F20210105011035.png" type="image/png" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Thu, 07 Jan 2021 00:05:29 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/26006613669203170</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/b168d3b1c37a762fe6cb54057c4aa2d91928a1bc/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20210105%2F20210105011035.png" type="image/png" length="0" />
+        </item>
+      
     
-  
-    
-    
-    <entry>
-        <title>rayで実装する分散強化学習 ②A2C（Advantage Actor-Critic）</title>
-        <link href="https://horomary.hatenablog.com/entry/2020/12/29/172223"/>
-        <id>hatenablog://entry/26006613671112984</id>
-        <published>2020-12-29T17:22:23+09:00</published>
-        <updated>2020-12-29T17:22:23+09:00</updated>        <summary type="html">GPUが一つしかなくても効率よく訓練できる分散強化学習手法A2Cをrayで実装します。 前記事： horomary.hatenablog.com A2Cとは rayによるA2C型同期並列アーキテクチャの実装 A2Cでのネットワーク更新 CartPole-v1での学習結果 次：Apex-DQN A2Cとは A3C論文： [1602.01783] Asynchronous Methods for Deep Reinforcement Learning A2CはA3C(Asynchronous Advantage Actor Critic) の派生手法です。 A3Cでは並列化された各agentが自律…</summary>
-        <content type="html">&lt;p&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/GPU&quot;&gt;GPU&lt;/a&gt;が一つしかなくても効率よく訓練できる分散&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;手法&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/A2C&quot;&gt;A2C&lt;/a&gt;をrayで実装します。&lt;/p&gt;
+      
+      
+        <item>
+          <title>rayで実装する分散強化学習 ②A2C（Advantage Actor-Critic）</title>
+          <link>https://horomary.hatenablog.com/entry/2020/12/29/172223</link>          <description>&lt;p&gt;&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/GPU&quot;&gt;GPU&lt;/a&gt;が一つしかなくても効率よく訓練できる分散&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/%B6%AF%B2%BD%B3%D8%BD%AC&quot;&gt;強化学習&lt;/a&gt;手法&lt;a class=&quot;keyword&quot; href=&quot;http://d.hatena.ne.jp/keyword/A2C&quot;&gt;A2C&lt;/a&gt;をrayで実装します。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;前記事：&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;
 
@@ -7942,13 +7760,12 @@ a&amp;#39; = \text{arg} \max_{a&amp;#39; \in A} E \left[{ Z(s&amp;#39;, a&amp;#3
 &lt;div class=&quot;footnote&quot;&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-e72b4e19&quot; name=&quot;f-e72b4e19&quot; class=&quot;footnote-number&quot;&gt;*1&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;バッチサイズがある程度大きい場合&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-59e30035&quot; name=&quot;f-59e30035&quot; class=&quot;footnote-number&quot;&gt;*2&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;&lt;a href=&quot;https://openai.com/blog/baselines-acktr-a2c/&quot;&gt;OpenAI&amp;#x66F0;&amp;#x304F;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;</content>        
-        <link rel="enclosure" href="https://cdn.image.st-hatena.com/image/scale/5195a529a1438a74e72cf5222d4ed1d4ca0b4c13/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20201224%2F20201224012126.jpg" type="image/jpeg" length="0" />
-
-        <author>
-            <name>horomary</name>
-        </author>
-    </entry>
+&lt;/div&gt;</description>          <pubDate>Tue, 29 Dec 2020 17:22:23 +0900</pubDate>
+          <guid isPermaLink="false">hatenablog://entry/26006613671112984</guid>
+          
+          <enclosure url="https://cdn.image.st-hatena.com/image/scale/5195a529a1438a74e72cf5222d4ed1d4ca0b4c13/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fh%2Fhoromary%2F20201224%2F20201224012126.jpg" type="image/jpeg" length="0" />
+        </item>
+      
     
-  
-</feed>
+  </channel>
+</rss>
